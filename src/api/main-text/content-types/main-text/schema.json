@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_texts",
+  "info": {
+    "singularName": "main-text",
+    "pluralName": "main-texts",
+    "displayName": "main-text",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text",
+      "default": "Lorem Ipsum Lorem Isum",
+      "required": true
+    },
+    "content_type": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
